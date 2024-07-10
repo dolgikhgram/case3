@@ -1,0 +1,73 @@
+[
+    
+    {
+        "id" : "el1" ,
+        "name" : "Homage HEG310B" ,
+        "img ": "https://i.ibb.co/VH6Ww7N/ubr3o80jwpbyl2dlvex9i3w0ph22jfiv-jpg.webp"  ,
+        "price" : 11500
+    },
+
+    {
+        "id ": "el2" ,
+       "name" : "Fender American Stratocaster Olympic White 2004 USA" ,
+       "img" : "https://i.ibb.co/BVBmvRJ/6g26tj3xff6digh50up0skxoayjl4pjv-jpg.webp" ,
+        "price" : 144000
+    },
+
+    {
+        "id" : "el3" ,
+        "name" : "ESP LTD EC-1000PIEZO QM See Thru Black" ,
+        "img" : "https://i.ibb.co/nMxNtRh/ddk3ojv3sj9w62xfo7mzl0cjw8uzl2hp-jpg.webp" ,
+       "price" : 154632
+    },
+
+    {
+       "id" : "el4" ,
+        "name" : "ESP LTD EC-258 Black Satin" ,
+        "img" : "https://i.ibb.co/0f4P4pk/oiwj1bhsqlmmx6ctwyet8lvu8xjczku8-jpg.webp" ,
+        "price" : 72800
+    },
+
+    {
+        "id ": "el5" ,
+        "name" :  "Cort CR200-GT Classic Rock" ,
+        "img" : "https://i.ibb.co/CB2QZLq/xl725ec8uz5nzfqnpnsx07ccmnfgzlop-jpeg.webp" ,
+        "price" : 42580
+    },
+
+    {
+        "id ": "el6" ,
+        "name" : "Fender Squier Sonic Stratocaster HSS MN Tahitian Coral" ,
+        "img" : "https://i.ibb.co/kykqSB3/6825wxit8ceyye475x9lnt5zxgwtbnib-jpg.webp" ,
+        "price" : 27900
+    },
+
+    {
+        "id" : "el7" ,
+        "name" : "Shinobi N102E SHM" ,
+        "img" : "https://i.ibb.co/Npd9T9y/bzmcxse9wbtexsdcp8yzs2tqxh798kht-jpg.webp" ,
+        "price" : 18600
+    },
+
+    {
+       " id" : "el8" ,
+       " name" :" ESP LTD M-200 FM See Thru Red" ,
+        "img" : "https://i.ibb.co/pP6LQ97/va2a8nfp49okrwo33pxa027gcc6za18d-jpg.webp" ,
+        "price" : 68435
+    },
+
+    {
+        "id" : "el9" ,
+       " name" : "Gibson Les Paul Standard 60s Unburst 2022 USA" ,
+        "img" : "https://i.ibb.co/6P9YqGh/naxm5sl6aljdny9g2ulrsam97igl5rh4-jpg.webp" ,
+        "price" : 178980
+    },
+
+    {
+        "id ": "el10" ,
+        "name" : "Smiger TR-22 ",
+        "img" : "https://i.ibb.co/qgBm7b5/jael7141rmhrdbfqkfnkyxibh79754pg-jpg.webp" ,
+       " price" : 18960
+    }
+
+]

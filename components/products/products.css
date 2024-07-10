@@ -1,0 +1,69 @@
+.products-container{
+    display: grid;
+    /* Свойство display CSS определяет, будет ли элемент обрабатываться как блок или встроенное поле , grid layout отлично подходит для разделения страницы на основные области*/
+    grid-template-columns: repeat(auto-fit,minmax(250px , 1fr));
+    /* Свойство grid-template-columns CSS определяет названия строк и функции отслеживания размеров столбцов сетки. */
+    grid-gap: 45px;
+    /* мы сделали отступы  */
+    width: 80%;
+    max-width: 1200px;
+    /* настроили ширину  */
+    margin: var(--spacing-large ) auto;
+    /* и чтобы было всё по центру настроили оступы */
+} 
+
+.products-element{
+    display: flex;
+    /* Свойство display CSS определяет, будет ли элемент обрабатываться как блок или встроенное поле , 
+    Flexbox предоставляет инструменты для быстрого создания сложных, гибких макетов, и функции, которые были сложны в традиционных методах CSS. */
+    flex-direction: column;
+    /* Свойство flex-direction CSS задает способ размещения элементов flex в контейнере flex, определяя главную ось и направление  */
+    justify-content: flex-end;
+    /* чтобы всё прижималось к нижнему краю */
+    padding: 25px 20px;
+    /* задали внутренние отступы для продукта  */
+    background-color: var(--color-white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    /* сделали тень вокруг наших объектов */
+ 
+}
+
+.products-element__name {
+    margin-bottom: auto;
+    /* Свойство margin-bottom CSS устанавливает область полей в нижней части элемента.  */
+    font-weight: bold;
+    /* жирный шрифт */
+}
+
+.products-element__img {
+    width: 100%;
+    height: 270px;
+    object-fit: contain;  
+    /* используем чтобы изображение не искажалось и используем контейн, чтобы картинка полностью вмещалась  */
+    margin-top: var( --spacing-medium);
+}
+
+.products-element__price {
+    margin-top: var( --spacing-medium);
+    color: var( --color-unaccent);
+}
+
+.products-element__btn{
+    margin-top: var( --spacing-medium);
+    padding: var(--spacing-small) var(--spacing-medium);
+    border : 1px splid var(--color-unaccent);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    outline: none;
+    /* убирает контр  */
+    font-family: inherit;
+    /* Свойство font-family CSS определяет приоритетный список из одного или нескольких названий семейств шрифтов  */
+    font-size: inherit;
+}
+
+.products-element__btn_active{
+    border : 1px splid transparent;
+    /* transparent -  прозрачный  */
+    background-image: var(--linear-gradient);
+}
